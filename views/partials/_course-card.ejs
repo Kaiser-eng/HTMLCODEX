@@ -1,0 +1,27 @@
+<div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="<%= delay %>">
+    <div class="courses-item">
+        <div class="courses-item-inner p-4">
+            <div class="d-flex justify-content-between mb-4">
+                <div class="courses-icon-img p-3">
+                    <img src="<%= icon %>" class="img-fluid" alt="">
+                </div>
+                <div class="data-info d-flex flex-column">
+                    <div class="courses-trainer d-flex align-items-center mb-1">
+                        <div class="me-2" style="width: 25px; height: 25px;">
+                            <img src="<%= trainerImg %>" class="img-fluid" alt="">
+                        </div>
+                        <p class="mb-0"><%= trainer %></p>
+                    </div>
+                    <div class="courses-date">
+                        <p class="mb-1">Date: <%= date %></p>
+                        <p class="mb-0">Time: <%= time %></p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="d-inline-block h4 mb-3"> <%= title %></a>
+            <p class="mb-4"><%= description %>
+            </p>
+            <a href="#" class="btn btn-primary py-2 px-4"> <span>Read More</span></a>
+        </div>
+    </div>
+</div>
